@@ -11,4 +11,5 @@ plt.title("PopularitY of Programming Language\n" + "Worldwide, Oct 2017 compared
 plt.pie(vals, labels=labels, explode=explode, autopct='%1.1f%%', shadow=True, wedgeprops={'edgecolor': 'black', 'linewidth': 1}, startangle=130)
 
 plt.gca().set_aspect('auto')
+
 plt.show()

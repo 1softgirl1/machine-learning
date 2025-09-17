@@ -4,7 +4,7 @@ x = ['Java', 'Python', 'PHP', 'JavaScript', 'C#', 'C++']
 popularity = [22.2, 17.6, 8.8, 8, 7.7, 6.7]
 x_pos = [i for i, _ in enumerate(x)]
 plt.barh(x_pos, popularity, color='green')
-plt.ylabel("Languages")
+plt.ylabel("Languages ")
 plt.xlabel("Popularity")
 plt.title("PopularitY of Programming Language\n" + "Worldwide, Oct 2017 compared to a year ago")
 plt.yticks(x_pos, x)

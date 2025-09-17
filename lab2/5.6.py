@@ -13,7 +13,7 @@ opacity = 0.8
 rects1 = plt.bar(index, men_means, bar_width, alpha=opacity, color='g', label='Men')
 rects2 = plt.bar(index + bar_width, women_means, bar_width, alpha=opacity,color='r', label='Women')
 
-plt.xlabel('Person')
+plt.xlabel('Person ')
 plt.ylabel('Scores')
 plt.title('Scores by person')
 plt.xticks(index + bar_width, ('G1', 'G2', 'G3', 'G4', 'G5'))

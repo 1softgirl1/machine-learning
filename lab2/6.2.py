@@ -12,12 +12,10 @@ ax.set_ylabel("y")
 
 ax_inset = inset_axes(ax, width="30%", height="30%", loc='center right')
 
-# Тот же график во врезке
 ax_inset.plot(x, y)
 ax_inset.set_xlabel("x")
 ax_inset.set_ylabel("y")
 
-# Настройка делений
 ax_inset.set_xticks([0, 100])
 ax_inset.set_yticks([0, 200])
 

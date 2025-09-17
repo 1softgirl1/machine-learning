@@ -11,7 +11,6 @@ for center, height in zip(centers, heights):
     data.extend(np.random.normal(center, 0.3, n_points))  
 
 data = np.array(data)
-
 plt.figure(figsize=(10, 6))
 n, bins, patches = plt.hist(data, bins=5, density=True, color="pink", alpha=0.6, linewidth=1)
 

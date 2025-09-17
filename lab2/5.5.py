@@ -6,7 +6,7 @@ w = [0.1, 0.2, 0.3, 1.0, 0.2, 0.3]
 
 x_pos = [i for i, _ in enumerate(x)]
 plt.bar(x_pos, popularity, color='blue', width=w)
-plt.xlabel("Languages")
+plt.xlabel("Languages ")
 plt.ylabel("Popularity")
 plt.title("PopularitY of Programming Language\n" + "Worldwide, Oct 2017 compared to a year ago")
 plt.xticks(x_pos, x)

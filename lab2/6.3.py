@@ -9,4 +9,5 @@ fig, axes = plt.subplots(1, 2, figsize=(10, 2))
 
 axes[0].plot(x, y1, color='blue', linewidth=3)
 axes[1].plot(x, y2, color='red', linestyle='--')
+
 plt.show()
