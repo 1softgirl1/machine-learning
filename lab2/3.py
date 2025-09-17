@@ -9,6 +9,7 @@ plt.plot(x, y, 'b-', linewidth=2, label='y(x) = x² - x - 6')
 
 plt.axhline(y=0, color='r', linestyle='--', alpha=0.7, label='y = 0')
 
+
 plt.scatter([-2, 3], [0, 0], color='red', s=100, zorder=5, label='Точки пересечения')
 
 plt.xlabel('x')

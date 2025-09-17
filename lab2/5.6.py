@@ -18,6 +18,5 @@ plt.ylabel('Scores')
 plt.title('Scores by person')
 plt.xticks(index + bar_width, ('G1', 'G2', 'G3', 'G4', 'G5'))
 plt.legend()
-
 plt.tight_layout()
 plt.show()

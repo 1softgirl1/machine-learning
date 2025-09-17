@@ -14,6 +14,7 @@ data = np.array(data)
 plt.figure(figsize=(10, 6))
 n, bins, patches = plt.hist(data, bins=5, density=True, color="pink", alpha=0.6, linewidth=1)
 
+
 kde = gaussian_kde(data)
 x_new = np.linspace(min(data), max(data), 200)
 y_smooth = kde(x_new)

@@ -58,7 +58,6 @@ plt.title('Display marker')
 plt.show()
 
 # 6
-
 dates = ['2016-10-03', '2016-10-04', '2016-10-05', '2016-10-06', '2016-10-07']
 values = [772.56, 776.43, 776.47, 777.07, 775.08]
 plt.plot(dates, values, color='red', marker='o')

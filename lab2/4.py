@@ -24,6 +24,7 @@ def f(x):
 
     # Экспоненциальная часть
     exp_part = np.exp(-np.abs(x) / 10)
+
     return log_part * exp_part
 
 

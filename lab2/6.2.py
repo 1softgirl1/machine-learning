@@ -12,6 +12,7 @@ ax.set_ylabel("y")
 
 ax_inset = inset_axes(ax, width="30%", height="30%", loc='center right')
 
+
 ax_inset.plot(x, y)
 ax_inset.set_xlabel("x")
 ax_inset.set_ylabel("y")

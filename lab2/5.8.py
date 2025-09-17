@@ -12,4 +12,5 @@ plt.pie(vals, labels=labels, explode=explode, autopct='%1.1f%%', shadow=True, we
 
 plt.gca().set_aspect('auto')
 
+
 plt.show()

@@ -14,7 +14,6 @@ plt.xlabel("Languages ")
 plt.ylabel("Popularity")
 plt.title("PopularitY of Programming Language\n" + "Worldwide, Oct 2017 compared to a year ago")
 plt.xticks(x_pos, x)
-
 plt.minorticks_on()
 plt.grid(which='major', linestyle='-', linewidth='0.5', color='red')
 

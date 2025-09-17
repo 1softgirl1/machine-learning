@@ -13,6 +13,5 @@ plt.xticks(x_pos, x)
 
 plt.minorticks_on()
 plt.grid(which='major', linestyle='-', linewidth='0.5', color='red')
-
 plt.grid(which='minor', linestyle=':', linewidth='0.5', color='black')
 plt.show()
